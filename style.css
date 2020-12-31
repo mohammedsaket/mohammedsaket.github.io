@@ -1,0 +1,76 @@
+.sidenav {
+    height: 100%; 
+    width: 350px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  .nav_menu a:first-child {
+    padding: 40px 0px 7px 0px;
+  }
+
+  .nav_menu a{
+    padding: 7px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 21px;
+    color: #818181;
+    display: block;
+
+  }
+  
+  .nav_menu a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .main {
+    margin-left: 350px;
+    padding: 0px 10px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .profile_photo{
+    padding-top: 10%;
+    height: 35%;
+    min-height: 300px;
+  }
+  .profile_photo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    width: 70%;
+    min-height: 200px;
+    background-color: #818181;
+    border-radius: 500px;
+    -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
+  }
+
+  .information{
+    height: 20%;
+    min-height: 200px;
+  }
+
+  .information h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    color: #C8C8C8;
+  }
+
+  .information p {
+    font-size: 20px;
+    text-align: center;
+    color: #C8C8C8;
+  }
